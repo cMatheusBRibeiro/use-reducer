@@ -1,11 +1,11 @@
 import "./App.css";
 import { useReducer } from "react";
-import countReducer from "../countReducer";
+import countReducer from "./countReducer";
 import {
   COUNT_REDUCER_DECREMENT,
   COUNT_REDUCER_INCREMENT,
   COUNT_REDUCER_RESET,
-} from "../countReducer/actions-type";
+} from "./countReducer/actions-type";
 import { FaMinus, FaPlus } from "react-icons/fa";
 import { BiReset } from "react-icons/bi";
 
