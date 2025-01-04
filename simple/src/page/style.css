@@ -3,12 +3,18 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   display: flex;
   width: 100vw;
   height: 100vh;
   justify-content: center;
   padding-top: 10rem;
+  background: linear-gradient(45deg, #212529, #343a40);
 }
 
 .counter {
@@ -19,13 +25,12 @@
 }
 
 .counter__screen {
-  background-color: #EEE;
-  color: #999;
+  color: #adb5bd;
   width: 100%;
   text-align: center;
   padding: .5rem;
   border-radius: .5rem;
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 
 .counter__list-operators {
@@ -36,20 +41,20 @@
 .counter__operator {
   cursor: pointer;
   background: transparent;
-  border: 2px solid #EEE;
-  color: #AAA;
+  border: 2px solid #adb5bd;
+  color: #adb5bd;
   border-radius: .4rem;
   padding: .4rem .6rem;
   transition: all 200ms ease;
 }
 
 .counter__operator:hover {
-  background: #EEE;
-  color: #999;
+  background: #343a40;
+  color: #ced4da;
 }
 
 .counter__operator:active {
-  background: #CCC;
-  border-color: #CCC;
-  color: #555;
+  background: #495057;
+  border-color: #ced4da;
+  color: #ced4da;
 }

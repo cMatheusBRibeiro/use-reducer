@@ -38,7 +38,7 @@ const SimplePage = () => {
   return (
     <div className="container">
       <div className="counter">
-        <div className="counter__screen">{counter}</div>
+        <div className="counter__screen">{counter.toLocaleString("pt-br")}</div>
         <div className="counter__list-operators">
           <button
             type="button"
